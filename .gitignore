@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Project runtime artifacts
+dm_check.json
+dm_state.json
+tui_config.json
+requests.json
+dm_export_*.json
+inbox_raw.json
+*.log
+*.png
+
+# IDE / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets / local config
+.env
+.env.local
